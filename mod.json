@@ -29,7 +29,7 @@
 			"type": "int",
 			"name": "Port",
 			"description": "The port on which to send OSC messages.",
-			"default": 9001
+			"default": 9000
 		}
 	}
 }
