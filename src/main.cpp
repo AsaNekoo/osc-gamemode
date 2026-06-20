@@ -67,7 +67,7 @@ class $modify(Player, PlayerObject) {
         PlayerObject::update(dt);
 
         auto pl = PlayLayer::get();
-        if (!pl || this != pl->m_player1 && this != pl->m_player2) return;
+        if (!pl || this != pl->m_player1) return;
 
         int mode = getGameMode(this);
         if (mode == m_fields->m_lastMode) return;
