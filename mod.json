@@ -1,12 +1,11 @@
 {
 	"geode": "5.7.1",
 	"gd": {
-		"win": "2.2081",
-		"mac": "2.2081"
+		"win": "2.2081"
 	},
 	"id": "asaneko.osc-gamemode",
 	"name": "OSC-Gamemode",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"developer": "AsaNeko",
 	"description": "Reports gamemode changes to an OSC client.",
 	"dependencies": {
