@@ -1,23 +1,29 @@
-# osc-hrm
-This is where she makes a mod.
+# [osc-gamemode](https://github.com/AsaNekoo/osc-gamemode)
 
-<img src="logo.png" width="150" alt="the mod's logo" />
+A Geode mod for Geometry Dash that sends the player's current gamemode over OSC, intended for use with VRChat.
 
-*Update logo.png to change your mod's icon (please)*
+## Demo
 
-## Getting started
-We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
+<img width="480" height="230" alt="output" src="https://github.com/user-attachments/assets/157c9160-798c-4985-8731-0698ceb60c3c" />
 
-## Build instructions
-For more info, see [our docs](https://docs.geode-sdk.org/getting-started/create-mod#build)
-```sh
+## VRChat Asset Requirements
+
+The companion VRChat asset requires:
+- [Modular Avatar](https://modular-avatar.nadena.dev/)
+- [liltoon](https://lilxyzw.github.io/lilToon/)
+
+## Textures
+
+All textures used by the asset should be **512x512**. You can grab base icon textures from [gdbrowser.com/iconkit](https://gdbrowser.com/iconkit/) and edit them down to fit that size.
+
+## Building the Mod
+
+```
 # Assuming you have the Geode CLI set up already
 geode build
 ```
 
-# Resources
-* [Geode SDK Documentation](https://docs.geode-sdk.org/)
-* [Geode SDK Source Code](https://github.com/geode-sdk/geode/)
-* [Geode CLI](https://github.com/geode-sdk/cli)
-* [Bindings](https://github.com/geode-sdk/bindings/)
-* [Dev Tools](https://github.com/geode-sdk/DevTools)
+## Resources
+
+- [Geode SDK Documentation](https://docs.geode-sdk.org/)
+- [Geode SDK Source Code](https://github.com/geode-sdk/geode/)
