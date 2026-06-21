@@ -5,7 +5,7 @@
 	},
 	"id": "asaneko.osc-gamemode",
 	"name": "OSC-Gamemode",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"developer": "AsaNeko",
 	"description": "Reports gamemode changes to an OSC client.",
 	"dependencies": {
